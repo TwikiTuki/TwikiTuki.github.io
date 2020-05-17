@@ -13,6 +13,94 @@ body{
 }
 
 
+img.mid{
+  width:50%;
+}
+img.big{
+  width: 100%;
+}
+div.text.mid{
+    width: 50%;
+}
+div.text.big{
+  width: 100%;
+}
+
+div.img, div.text{
+  margin:10px;
+}
+
+div.text{
+  color: Aquamarine;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+
+  display: inline;
+
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
+div.img{
+  overflow: hidden;
+}
+
+div.text, div.img{
+    height: 400px;
+}
+
+div.flex{
+  display: flex;
+}
+
+
+div.heading{
+
+  background-image: url('images/vista-corped3.jpg');
+  height: 300px;
+  text-align: middle;
+
+}
+
+h1{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  height: 100%;
+
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+h2{
+
+  display: block;
+
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: middle;
+
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+p.center{
+
+  margin-top: auto;
+  margin-bottom: auto;
+  vertical-align: middle;
+
+  height: 100%;
+  text-align: center;
+  display: inline;
+}
+
+
 .footer{
   margin-top: 20px;
   position: absolute;
