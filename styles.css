@@ -35,7 +35,6 @@ div.text{
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  vertical-align: middle;
 
   display: inline;
 
@@ -45,14 +44,13 @@ div.text{
 }
 div.img{
   overflow: hidden;
+  height: 400px;
 }
 
-div.text, div.img{
-    height: 400px;
-}
 
 div.flex{
   display: flex;
+  align-items: center;
 }
 
 
@@ -60,18 +58,19 @@ div.heading{
 
   background-image: url('images/vista-corped3.jpg');
   height: 300px;
-  text-align: middle;
+  text-align: center;
 
 }
 
 h1{
+  position: relative;
   margin-left: auto;
   margin-right: auto;
-  text-align:center;
-  height: 100%;
+
+  top: 40%;
 
   color: white;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -81,7 +80,6 @@ h2{
 
   margin-top: auto;
   margin-bottom: auto;
-  text-align: middle;
 
   color: white;
   font-size: 30px;
@@ -110,4 +108,15 @@ p.center{
 }
 
 .main{
+}
+
+@media (max-width:500px) {
+  .hidden{
+    display: none;
+  }
+}
+@media (min-width:501px) {
+  .hidden{
+    display: initial;
+  }
 }
