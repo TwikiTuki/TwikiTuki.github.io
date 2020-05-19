@@ -113,9 +113,13 @@ p.center{
   .hidden{
     display: none;
   }
+  .flex{
+    flex-wrap: wrap;
+  }
 }
 @media (min-width:501px) {
   .hidden{
     display: initial;
+    flex-wrap: nowrap;
   }
 }
